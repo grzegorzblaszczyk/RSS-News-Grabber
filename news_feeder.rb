@@ -67,7 +67,7 @@ def save_or_update_in_database_sqlite(database, news_array)
     if !rows.nil? and rows.length > 0
       puts "Data up to date..."
     else
-      puts "Executing first insert for #{news['title']} today..."
+      puts "Executing insert for #{news['title']} ..."
       insert_statement.execute!
     end
     select_statement.close
