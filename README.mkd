@@ -6,6 +6,6 @@ A quick'n'dirty news grabber from RSS resource into SQLite database.
 
 1. Checkout from git://github.com/grzegorzblaszczyk/rss_news_grabber.git
 2. Run ```gem install sqlite3```
-3. Run ```./rss_news_feeder.rb```
+3. Run ```./rss_news_grabber.rb```
 
 
